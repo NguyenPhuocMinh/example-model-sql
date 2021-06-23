@@ -1,0 +1,17 @@
+{
+  "name": "example-model-sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sequelize"
+  ],
+  "author": "Minh Nguyễn",
+  "license": "ISC",
+  "dependencies": {
+    "winext-repository": "git+https://github.com/NguyenPhuocMinh/winext-repository.git#4d42b0c53d332351adb190059bb0bd58c0fab7af"
+  }
+}
