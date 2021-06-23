@@ -9,7 +9,6 @@ module.exports = {
     description: { type: Sequelize.STRING },
     title: { type: Sequelize.STRING },
     register_date: { type: Sequelize.STRING },
-    permissions: [Sequelize.STRING],
     //filter
     deleted: { type: Sequelize.BOOLEAN, defaultValue: false },
     created_at: { type: Sequelize.DATE },
