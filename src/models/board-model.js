@@ -8,16 +8,17 @@ module.exports = {
     name: { type: Sequelize.STRING },
     description: { type: Sequelize.STRING },
     title: { type: Sequelize.STRING },
-    registerDate: { type: Sequelize.STRING },
+    register_date: { type: Sequelize.STRING },
     permissions: [Sequelize.STRING],
     //filter
     deleted: { type: Sequelize.BOOLEAN, defaultValue: false },
-    createdAt: { type: Sequelize.DATE },
-    createdBy: { type: Sequelize.STRING },
-    updatedAt: { type: Sequelize.DATE },
-    updatedBy: { type: Sequelize.STRING },
+    created_at: { type: Sequelize.DATE },
+    created_by: { type: Sequelize.STRING },
+    updated_at: { type: Sequelize.DATE },
+    updated_by: { type: Sequelize.STRING },
   },
   options: {
-    tableName: 'boards'
+    tableName: 'boards',
+    timestamps: false
   }
 }

@@ -13,12 +13,13 @@ module.exports = {
     //filter
     slug: { type: Sequelize.STRING },
     deleted: { type: Sequelize.BOOLEAN, defaultValue: false },
-    createdAt: { type: Sequelize.DATE },
-    createdBy: { type: Sequelize.STRING },
-    updatedAt: { type: Sequelize.DATE },
-    updatedBy: { type: Sequelize.STRING },
+    created_at: { type: Sequelize.DATE },
+    created_by: { type: Sequelize.STRING },
+    updated_at: { type: Sequelize.DATE },
+    updated_by: { type: Sequelize.STRING },
   },
   options: {
-    tableName: 'users'
+    tableName: 'users',
+    timestamps: false
   }
 }
